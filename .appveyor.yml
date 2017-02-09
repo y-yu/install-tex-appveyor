@@ -1,0 +1,10 @@
+image: Visual Studio 2015
+environment:
+  PATH: '%PATH%;C:\texlive\2016\bin\win32'
+install:
+  - bash ./install-tex.sh
+cache:
+  - 'C:\texlive\2016\texmf-var\fonts\cache'
+build_script:
+  - tlmgr install collection-langjapanese
+  - platex -v
