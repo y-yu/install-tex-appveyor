@@ -24,7 +24,6 @@ option_doc 0
 option_src 0
 EOF
 echo y | ./install-tl-windows.bat -profile ./small.profile -repository http://ctan.mirror.rafal.ca/systems/texlive/tlnet/
-export PATH=/c/texlive/2016/bin/win32:$PATH
 tlmgr.bat init-usertree
 cd ../..
 echo "remove the install directory"
