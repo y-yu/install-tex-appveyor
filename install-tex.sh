@@ -12,13 +12,13 @@ unzip install-tl.zip
 cd install-tl-*
 cat << EOF > ./small.profile
 selected_scheme scheme-small
-TEXDIR /texlive/2016
-TEXMFCONFIG /.texlive2016/texmf-config
+TEXDIR /texlive/2017
+TEXMFCONFIG /.texlive2017/texmf-config
 TEXMFHOME /texmf
 TEXMFLOCAL /texlive/texmf-local
-TEXMFSYSCONFIG /texlive/2016/texmf-config
-TEXMFSYSVAR /texlive/2016/texmf-var
-TEXMFVAR /.texlive2016/texmf-var
+TEXMFSYSCONFIG /texlive/2017/texmf-config
+TEXMFSYSVAR /texlive/2017/texmf-var
+TEXMFVAR /.texlive2017/texmf-var
 binary_win32 1
 option_doc 0
 option_src 0
