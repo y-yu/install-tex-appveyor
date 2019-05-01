@@ -1,4 +1,4 @@
-Install Script for TeXLive2018 to Windows on AppVeyor
+Install Script for TeXLive2019 to Windows on AppVeyor
 ==============================================================
 
 [![Build status](https://ci.appveyor.com/api/projects/status/a8bwa69ugimoosfs?svg=true)](https://ci.appveyor.com/project/y-yu/install-tex-appveyor)
