@@ -2,7 +2,7 @@ image: Visual Studio 2015
 environment:
   PATH: '%PATH%;C:\texlive\bin\win32'
 install:
-  - bash ./install-tex.sh
+  - bash ./install-tex.sh 
 cache:
   - 'C:\texlive\texmf-var\fonts\cache'
 build_script:
